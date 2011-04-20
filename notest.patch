@@ -1,0 +1,11 @@
+--- commons-math-2.2-src/build.xml~	2011-02-26 20:12:55.000000000 +0200
++++ commons-math-2.2-src/build.xml	2011-04-20 23:07:02.289885444 +0300
+@@ -247,7 +247,7 @@
+ 
+ <!-- ========== Create Jar ================================================ -->
+ 
+-  <target name="jar" depends="test" description="Create jar file">
++  <target name="jar" description="Create jar file">
+ 
+     <copy file="LICENSE.txt" tofile="${build.home}/classes/META-INF/LICENSE.txt"/>
+     <copy file="NOTICE.txt"  tofile="${build.home}/classes/META-INF/NOTICE.txt"/>
