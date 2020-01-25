@@ -7,7 +7,6 @@
 %bcond_with	tests		# don't build and run tests
 
 %define		srcname		commons-math
-%include	/usr/lib/rpm/macros.java
 Summary:	Java library of lightweight mathematics and statistics components
 Name:		java-%{srcname}
 Version:	2.2
