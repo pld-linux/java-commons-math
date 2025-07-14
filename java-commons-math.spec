@@ -44,7 +44,7 @@ This package contains the API documentation for commons-math.
 
 %prep
 %setup -q -n commons-math-%{version}-src
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 # source code not US-ASCII
